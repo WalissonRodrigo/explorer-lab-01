@@ -1,14 +1,14 @@
 <h1 align="center"> Explorer Lab #01 </h1>
 
 <p align="center">
-Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Exclusive and free event, promoted by Rocketseat for teaching WEB technologies.
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">
@@ -21,9 +21,9 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
   <img alt="rocketpay" src=".github/project.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - HTML e CSS
 - JavaScript e JSON
@@ -31,18 +31,29 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
 
-## 💻 Projeto
+## 💻 Project
 
-O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.
+Rocketpay is a component that simulates the credit card filling form, where it is possible to add mask to the inputs and update HTML elements via DOM.
+
+How to improve it was included the ELO flag with validation for the beginning of these cards that can be tested using the following initial sequences:
+`636368 | 438935 | 504175 | 451416 | 636297 | 5067 | 4576 | 4011`
+
+Also contains bitcoin as a choice but without validation so it can only be tested via browser using browser console. To do this, open the browser's DevTools (F12) and type the following command:
+
+```bash
+  setCardType("bitcoin")
+```
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/gpqavL469k0pPUGOmAQEM9/Explorer-Lab-%2301/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can view the project layout through [THIS LINK](<https://www.figma.com/file/fxNbQpyo6xqgyYX3UKyBGO/Explorer-Lab-%2301-(Copy)?node-id=3%3A2594>). You need an account on [Figma](https://figma.com) to access it.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Fork made with ♥ by Rocketseat :wave: [Join our community!](https://discord.gg/rocketseat)
+
+Translated Readme by [Walisson Rodrigo](https://linkedin.com/in/walissonrodrigo)
